@@ -1,0 +1,42 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.first, .second, .third{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 100px 0 100px;
+}
+button{
+    border-radius: 30px;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+}
+#one{
+    background-color: green;
+    cursor: pointer;
+}
+#two{
+    background-color: orange;
+    cursor: pointer;
+}
+#three{
+    background-color: purple;
+    cursor: pointer;
+}
+#one:hover{
+    background-color: rgb(64, 215, 64);
+}
+#two:hover{
+    background-color: rgb(203, 158, 73);
+}
+#three:hover{
+    background-color: rgb(224, 60, 224);
+}
